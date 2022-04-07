@@ -1,0 +1,251 @@
+body {
+    background-color: #9DB7CF;
+}
+.container {
+    background-color: #FAF0E6;
+    max-width: 1270px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 67px;
+    padding-right: 67px;
+}
+h1 {
+    font-family: 'Selna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+}
+h3 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #1D1B19;
+}
+h4 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.leftWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.rightWrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.9628px;
+}
+.Ellipse1 {
+    height: 28px;
+    padding-top: 10px;   
+}
+.section3 {
+    padding-right: 30px;
+}
+.section1, .section2, .section3, .section4 {
+    position: relative;
+}
+.section1:after, .section2:after, .section3:after, .section4:after {
+    content: "";
+    position: absolute;
+    background-color: #363636;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+}
+.section1:hover:after, .section2:hover:after, .section3:hover:after, .section4:hover:after {
+    width: 100%;
+}
+.page1 {
+    display: flex;
+    padding-bottom: 110px;
+}
+.newWrapper {
+    padding-left: 70px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.shopNow {
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+.shopNow:hover {
+    text-shadow: -.25px -.25px 0 black, 
+    .25px .25px black;
+}
+.page2 {
+    display: flex;
+    justify-content: space-between;
+}
+.favs {
+    padding-left: 60px;
+}
+.seeAll {
+    padding: 40px;
+    padding-right: 64px;
+    text-decoration: underline;
+    text-underline-offset: 0.4em; 
+}
+.picturesTop {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.names1 {
+    display: flex;
+    justify-content: space-between;
+}
+.nameJewelry {
+    padding-left: 60px;
+}
+.nameTop {
+    padding-right: 370px;
+}
+.prices1 {
+    display: flex;
+    justify-content: space-between;
+}
+.priceBag {
+    padding-bottom: 111px;
+}
+.priceJewelry {
+    padding-left: 60px;
+}
+.priceTop {
+    padding-right: 440px;
+}
+.page5 {
+    display: flex;
+    justify-content: space-between;
+}
+.jewelry2 {
+    padding-left: 60px;
+    height: 463px;
+}
+.jewelry3 {
+    padding-right: 60px;
+    padding-top: 250px;
+    height: 463px;
+}
+.namesWrapper {
+    padding-top: 80px;
+}
+.page6 {
+    padding-top: 235px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+}
+.page6Text {
+    font-size: 23px;
+    line-height: 158.9%;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.readMore {
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+.pictureGirl {
+    border-radius: 500px 500px 0px 0px;
+    width: 500px;
+}
+.aboutUs {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.newsletterWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.polygon1 {
+    padding-top: 150px;
+    width: 48px; 
+}
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+.subscribeArrow {
+    padding-bottom: 2px;
+    transition: transform 1s;
+}
+.subscribe:hover .subscribeArrow {
+   transform: translate(100%);
+}
+.email {
+    color: rgba(29, 27, 25, 0.5);
+    padding-left: 320px;
+}
+.subscribe {
+    padding-right: 350px;
+}
+.followWrapper {
+    padding-top: 150px;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+.imagesWrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+}
+.polygon3, .polygon4 {
+    height: 48px;
+    padding: 20px;
+}
+.tshirtGirl, .earringsGirl, .ringsGirl {
+    width: 400px;
+    height: 500px;
+}
+.hr1 {
+    height: 1px; 
+    color: rgb(1, 1, 1); 
+    background-color: black;
+}
+.footer {
+    display: flex;
+}
+.webName {
+    padding-left: 60px;
+    padding-right: 280px;
+    padding-top: 45px;
+}
+.categories {
+    display: flex;
+    align-content: space-between;
+    gap: 100px;
+    padding-top: 77px;
+}
+.signature {
+    color: #1D1B19;
+    font-size: 16.582px;
+    padding: 60px;
+}
+.hr2 {
+    color: rgb(1, 1, 1); 
+    background-color: black;
+    width: 630px;
+}
+@media (max-width: 580px) {
+    .polygon2 {display: none;}
+}
