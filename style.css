@@ -3,7 +3,6 @@ body {
 }
 .container {
     background-color: #FAF0E6;
-    max-width: 1270px;
 }
 .header {
     display: flex;
@@ -39,6 +38,7 @@ h4 {
 .rightWrapper {
     display: flex;
     justify-content: space-between;
+    gap: 5px;
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 400;
@@ -46,7 +46,7 @@ h4 {
 }
 .ellipse1 {
     height: 28px;
-    padding-top: 10px;   
+    padding-top: 12px;   
 }
 .box {
     position: relative;
@@ -58,14 +58,13 @@ h4 {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: -5%; 
+    top: -1%; 
     text-align: center;
 }
-.section3 {
-    padding-right: 30px;
-}
-.section4 {
-    padding-right: 5px;
+.sectionsWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 .section1, .section2, .section3, .section4 {
     position: relative;
@@ -263,5 +262,5 @@ h4 {
     width: 630px;
 }
 @media (max-width: 580px) {
-    .polygon2 {display: none;}
+    .section2 {color: yellow !important;}
 }
