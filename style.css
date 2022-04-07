@@ -44,12 +44,28 @@ h4 {
     font-weight: 400;
     font-size: 16.9628px;
 }
-.Ellipse1 {
+.ellipse1 {
     height: 28px;
     padding-top: 10px;   
 }
+.box {
+    position: relative;
+    display: inline-block;
+}
+.box .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -5%; 
+    text-align: center;
+}
 .section3 {
     padding-right: 30px;
+}
+.section4 {
+    padding-right: 5px;
 }
 .section1, .section2, .section3, .section4 {
     position: relative;
